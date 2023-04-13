@@ -133,6 +133,9 @@ a{
     .stamp-container-div.active{
         margin-top: 350px;
     }
+    .container-contact.active{
+        margin-top: 500px;
+    }
 }
 
 
@@ -501,4 +504,39 @@ footer p {
     color: black;
     margin: 20px; 
     padding: 50px;
+}
+
+.container-contact{
+    text-align: center;
+}
+
+.container-contact h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    margin: 20px; 
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .contact-button:hover {
+    background-color: #0069d9;
+  }
+
+.phone-number{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin: 20px; 
 }
