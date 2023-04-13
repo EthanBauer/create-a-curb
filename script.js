@@ -1,13 +1,20 @@
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry)=>{
-    console.log(entry);
-    if(entry.isIntersecting){
-      entry.target.classList.add('show');
-    }else{
-      entry.target.classList.remove('show');
-    }
-  });
-});
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+const container = document.querySelector(".container");
 
-const hiddenElements = document.querySelectorAll('.hidden');
-hiddenElements.forEach((el)=> observer.observe(el));
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+    container.classList.toggle("active");
+}
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+  container.classList.remove("active");
+}
