@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create A Curb</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="./lightbox/dist/css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styling/index-style.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -37,18 +38,27 @@
         <div class="div-content check-out-work">
             <section class="hidden">
                 <a href="previous.html" class="header-check-out-work">Check Out Some Of Our Work</a>
+                <a id="click-me-homepage" href="previous.html">^click to see more^</a>
                 <div class="examples">
                     <div class="example hidden">
+                        <a href="./images/previousJobs/prev2.jpg" data-lightbox="gallery1">
                         <img src="./images/previousJobs/prev2.jpg" alt="Decorative Curb">
+                        </a>
                     </div>
                     <div class="example hidden">
+                        <a href="./images/previousJobs/prev3.jpg" data-lightbox="gallery1">
                         <img src="./images/previousJobs/prev3.jpg" alt="Decorative Curb">
+                        </a>
                     </div>
                     <div class="example hidden">
+                        <a href="./images/previousJobs/prev10.jpg" data-lightbox="gallery1">
                         <img src="./images/previousJobs/prev10.jpg" alt="Decorative Curb">
+                        </a>
                     </div>
                     <div class="example hidden">
+                        <a href="./images/previousJobs/prev24.jpg" data-lightbox="gallery1">
                         <img src="./images/previousJobs/prev24.jpg" alt="Decorative Curb">
+                        </a>
                     </div>
                 </div>
             </section>
@@ -63,10 +73,29 @@
                 <a href="contact.html" class="cta">Get a Free Quote</a>
             </section>
         </div>
+        <div class="div-content offerings-section">
+            <section class="hidden">
+                <h2 id="header-offerings">Why We Stand Out From Competition</h2>
+                <ul id="offerings-list">
+                    <li id="offerings-item">
+                        Steel Galvanized Reinforcement
+                    </li>
+                    <li id="offerings-item">
+                        Fibre Mesh Reinforcement
+                    </li>
+                    <li id="offerings-item">
+                        Complimentary Sealant
+                    </li>
+                    <li id="offerings-item">
+                        Warranty Included
+                    </li>
+                </ul>
+            </section>
+        </div>
         <!-- class services -->
         <div class="div-content our-services">
             <section class="hidden">
-                <h2>Our Services</h2>
+                <h2 id="header-our-services">Our Services</h2>
                 <ul id="services-list">
                     <li id="services-item">Landscape Curbing Designing</li>
                     <li id="services-item">Landscape Curbing Installations</li>
@@ -78,40 +107,13 @@
         <div class="div-content about-section">
             <section class="hidden">
                 <h2>About Us</h2>
-                <p>Welcome to Create-A-Curb, where we provide high-quality decorative curbing services to 
-                    enhance the look and value of your property. 
-                    Our extensive experience in the industry drives 
-                    our dedication to providing outstanding results and top-notch customer service.
-                    <br></br>
-
-                    Our team uses premium materials and equipment to create 
-                    unique and functional curbing designs that suit your preferences. 
-                    We take the time to listen to our customers' needs and work closely 
-                    with them to create customized solutions that exceed their expectations.<br></br>
-                    
-                    At Create-A-Curb, we are passionate about what we do and strive to 
-                    deliver the highest level of craftsmanship and customer satisfaction. 
-                    Contact us today to learn more about how we can enhance the curb 
-                    appeal of your property with our decorative curbing services.</p>
-            </section>
-        </div>
-        <div class="div-content offerings-section">
-            <section class="hidden">
-                <h2>What We Include</h2>
-                <ul id="offerings-list">
-                    <li id="offerings-item">
-                        Steel Galvanized Cable
-                    </li>
-                    <li id="offerings-item">
-                        Fibre Mesh Reinforcement
-                    </li>
-                    <li id="offerings-item">
-                        Complimentary Sealant
-                    </li>
-                    <li id="offerings-item">
-                        1 year warranty on all work
-                    </li>
-                </ul>
+                <p>
+                    Our team specializes in custom designs to enhance the appearance and functionality of your landscape. 
+                    We create durable and no maintenance curbing that complements your landscape. 
+                    From edging flower beds to defining driveways, we offer a range of styles and colors to choose from. 
+                    With exceptional customer service and a commitment to satisfaction, we bring your vision to life. 
+                    Contact us today to transform your outdoor space with our beautiful and functional curbing solutions.
+                </p>
             </section>
         </div>
     </div>
@@ -119,5 +121,6 @@
     <footer>
         <p>&copy; 2023 Create-A-Curb</p>
     </footer>
+    <script src="./lightbox/dist/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
