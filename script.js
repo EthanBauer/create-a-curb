@@ -18,3 +18,11 @@ function closeMenu() {
   navMenu.classList.remove("active");
   container.classList.remove("active");
 }
+
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true,
+  'alwaysShowNavOnTouchDevices': true,
+  'disableScrolling': true,
+  'showImageNumberLabel': false
+})
