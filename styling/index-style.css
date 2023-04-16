@@ -24,93 +24,6 @@ body::-webkit-scrollbar-thumb{
     background: #138808;
 }
 
-/* @media only screen and (max-width: 1065px) {
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #007FFF;
-        width: 100%;
-        border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
-    }
-
-    .nav-menu.active {
-        left: 0;
-        position: absolute;
-    }
-
-    .nav-item {
-        margin: 2.5rem 0;
-    }
-
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-    .container.active{
-        margin-top: 10px;
-        transform: translateY(10%);
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3 ease-in-out;
-    }
-    .container-colours.active{
-        margin-top: 300px;
-    }
-    .stamp-container-div.active{
-        margin-top: 350px;
-    }
-    .container-contact.active{
-        margin-top: 500px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .examples {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      height: 1800px;
-    }
-  
-    .example {
-      width: 100%;
-      margin-bottom: 20px;
-    }
-    .check-out-work{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: white;
-        color: black;
-        padding-bottom: 1800px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .div-content{
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-bottom: 60px;
-    }
-  } */
-
 .main{
     background-color: white;
 }
@@ -575,15 +488,6 @@ footer p {
         -webkit-transition: all 0.5s ease-in-out;
         transition: all 0.5 ease-in-out;
     }
-    /* .container-colours.active{
-        margin-top: 300px;
-    }
-    .stamp-container-div.active{
-        margin-top: 350px;
-    }
-    .container-contact.active{
-        margin-top: 500px;
-    } */
 }
 
 @media only screen and (max-width: 699px) {
@@ -609,14 +513,152 @@ footer p {
         margin-right: 50px;
     }
 }
-@media only screen and (max-width: 440px){
+@media only screen and (max-width: 564px){
+    .about-section{
+        padding-bottom: 750px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .about-section{
+        padding-bottom: 1000px;
+        padding-top: 1000px;
+    }
+    .transform-landscape{
+        margin: 0px;
+    }
+    .main{
+        text-align: center;
+        align-items: center;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    main{
+        justify-content: center;
+        align-items: center;
+    }
+    .div-content{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .header-check-out-work{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-right: 0px;
+        padding-right: 0px;
+        font-size: 2.5rem;
+    }
+    .check-out-work{
+        padding-left: 0px;
+    }
+    .transform-landscape{
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .transform-landscape p{
+        margin: 0px;
+    }
     .header-transform{
-        margin-top: 4000px; 
+        font-size: 3rem;
     }
     #header-offerings{
-        margin-top: 3500px;
+        font-size: 3rem;
+    }
+    #offerings-list{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .offerings-section{
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    #offerings-item {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        background-color: #138808;
+        font: "Open Sans", sans-serif;
+        font-size: 1.5rem;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease-in-out;
+      }
+    #header-our-services{
+        font-size: 3rem;
+    }
+    #services-list{
+        margin-right: 0px;
+        margin-left: 0px;
     }
     .our-services{
-        margin-top: 2000px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
     }
+    #services-item {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        background-color: #138808;
+        font: "Open Sans", sans-serif;
+        font-size: 1.5rem;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease-in-out;
+      }
+      #header-about{
+        font-size: 2.5rem;
+      }
+      .about-section{
+        margin: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 300px;
+        padding-bottom: 350px;
+        justify-content: center;
+        text-align: center;
+      }
+      .about-section p{
+        margin: 0px;
+        padding: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+      }
+      #p-about{
+        margin: 0px;
+        padding: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        font-size: 1rem;
+        text-align: center;
+      }
+      html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .hidden{
+        margin: 0px;
+        padding: 0px;
+    }
+    .div-content{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+      
 }
