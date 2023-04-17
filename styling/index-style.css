@@ -55,17 +55,6 @@ body::-webkit-scrollbar-thumb{
     line-height: 1.2;
     color: #000000;
 }
-#click-me-homepage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font: "Open Sans", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-    color: #138808;
-    /* -webkit-text-stroke: 0.5px #000000; */
-}
 
 .examples {
     display: flex;
