@@ -545,7 +545,7 @@ footer p {
     }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 425px){
     .about-section{
         padding-bottom: 1000px;
         padding-top: 1000px;
