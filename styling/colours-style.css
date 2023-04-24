@@ -77,15 +77,12 @@ body::-webkit-scrollbar-thumb{
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     font-size: 1.5rem;
-    /* -webkit-text-stroke: 1.2px black; */
 }
 .colour-pallet{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 20px;
     margin: 20px;
     padding-bottom: 60px;
 }
@@ -241,16 +238,12 @@ footer p {
 }
 
 @media only screen and (max-width: 1049px) {
-    /* .header-colours{
-        padding-left: 200px;
-        padding-right: 200px;
-    } */
     .nav-menu {
         position: fixed;
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: #138808;
+        background-color: var(--navbar-background-color);
         width: 100%;
         border-radius: 10px;
         text-align: center;
@@ -273,7 +266,7 @@ footer p {
         cursor: pointer;
     }
     .bar{
-        background-color: white;
+        background-color: var(--bar-background-color);
     }
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
