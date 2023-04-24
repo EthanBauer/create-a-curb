@@ -688,7 +688,19 @@ footer p {
         margin-top: 0px;
     }
     .example img{
-        width: 125px;
-        height: 125px;
+        width: 150px;
+        height: 150px;
+    }
+    .examples{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .conatiner{
+        margin: 0;
+        padding: 0;
     }
 }
