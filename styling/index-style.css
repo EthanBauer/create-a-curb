@@ -97,7 +97,7 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     font-size: 50px;
     font-weight: 500;
-    font: "Open Sans", sans-serif;
+    font: "Brush";
     font-size: 5rem;
     font-weight: 700;
     line-height: 1.2;
@@ -190,7 +190,7 @@ img:hover{
     justify-content: center;
     align-items: center;
     font-weight: 500;
-    font: "Open Sans", sans-serif;
+    font: "Brush";
     font-size: 5rem;
     font-weight: 700;
     line-height: 1.2;
@@ -198,7 +198,7 @@ img:hover{
 }
 #offering-h3{
     font-weight: 500;
-    font: "Open Sans", sans-serif;
+    font: "Brush";
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.2;
@@ -562,9 +562,9 @@ footer p {
         padding: 0px;
     }
     .header-transform{
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding: 0;
-        margin-top: 2500px;
+        margin-top: 2250px;
         margin-bottom: 0px;
     }
     #header-offerings{
@@ -580,7 +580,10 @@ footer p {
         padding-left: 0px;
         padding: 0;
         margin: 0;
-        margin-top: -300px;
+        margin-top: -600px;
+    }
+    #header-offerings{
+        font-size: 2.5rem;
     }
     #offerings-item {
         display: inline-block;
@@ -594,7 +597,7 @@ footer p {
         transition: all 0.3s ease-in-out;
       }
     #header-our-services{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     #services-list{
         margin-right: 0px;
@@ -604,7 +607,7 @@ footer p {
         margin-right: 0px;
         margin-left: 0px;
         padding: 0;
-        margin-top: 1250px;
+        margin-top: 1200px;
         margin-bottom: 100px;
     }
     #services-item {
@@ -625,8 +628,8 @@ footer p {
         padding: 0;
         justify-content: center;
         text-align: center;
-        margin-top: -400px;
-        margin-bottom: -200px;
+        margin-top: -500px;
+        margin-bottom: -250px;
       }
       .about-section p{
         margin: 0;
@@ -668,6 +671,16 @@ footer p {
 
 @media only screen and (max-width: 320px){
     .our-services{
-        margin-top: 1400px;
+        margin-top: 1300px;
+    }
+    .about-section{
+        margin-top: -400px;
+        margin-bottom: -250px;
+    }
+    .offerings-section{
+        margin-top: -500px;
+    }
+    .transform-landscape{
+        margin-top: 100px;
     }
 }
