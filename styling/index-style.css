@@ -473,7 +473,7 @@ footer p {
         transform: translateY(-8px) rotate(-45deg);
     }
     .container.active{
-        margin-top: 10px;
+        padding-top: 10px;
         transform: translateY(10%);
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3 ease-in-out;
