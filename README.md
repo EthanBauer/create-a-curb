@@ -2,7 +2,8 @@
 website for create-a-curb
 
 # Website Link
-www.createacurb.ca
+This is the development of the www.createacurb.ca website:<br>
+https://ethanbauer.github.io/create-a-curb/
 
 
 
