@@ -83,19 +83,6 @@ body::-webkit-scrollbar-thumb{
     font-size: 1.5rem;
     color: var(--alt-text-color);
 }
-.stamp-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 100%;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: auto;
-    margin: 0 auto;   
-    padding-top: 75px; 
-}
 .stamp-item {
     position: relative;
 }
