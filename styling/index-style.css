@@ -645,7 +645,6 @@ footer p {
       }
       html, body {
         max-width: 100%;
-        overflow-x: hidden;
     }
     .div-content{
         margin-left: 0;
