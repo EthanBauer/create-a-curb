@@ -111,6 +111,7 @@ body::-webkit-scrollbar-thumb{
     margin: 20px;
     margin-left: 300px;
     margin-right: 300px;
+    text-align: center;
     color: var(--p-color);
     font: "Open Sans", sans-serif;
     font-size: 2rem;
@@ -178,6 +179,7 @@ img:hover{
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-in-out;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 #services-item:hover {
     transform: translateY(-5px);
@@ -187,7 +189,6 @@ img:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
     font-weight: 500;
     font: "Open Sans", sans-serif;
     font-size: 5rem;
@@ -195,30 +196,23 @@ img:hover{
     line-height: 1.2;
     color: var(--h1-color);
 }
-#offerings-list{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-#offerings-item {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    background-color: var(--button-background-color);
+#offering-h3{
+    font-weight: 500;
     font: "Open Sans", sans-serif;
-    font-size: 2rem;
-    color: var(--button-text-color);
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease-in-out;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--p-color);
 }
-#offerings-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+#offering-p{
+    text-align: center;
+    color: var(--h1-color);
+    font: "Open Sans", sans-serif;
+    font-size: 2.2rem;
 }
+
+
+
 .about-section p{
     margin-left: 75px;
     margin-right: 75px;
@@ -233,8 +227,6 @@ img:hover{
 .about-section{
     padding-bottom: 50px;
 }
-
-
 
 
 li{
@@ -534,10 +526,6 @@ footer p {
 }
 
 @media only screen and (max-width: 425px){
-    .about-section{
-        padding-bottom: 1000px;
-        padding-top: 1000px;
-    }
     .transform-landscape{
         margin: 0px;
     }
@@ -563,23 +551,21 @@ footer p {
         justify-content: center;
         text-align: center;
         align-items: center;
-        margin-right: 0px;
-        padding-right: 0px;
         font-size: 2.5rem;
     }
-    .check-out-work{
-        padding-left: 0px;
-    }
     .transform-landscape{
-        padding-left: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
+        padding: 0;
+        margin: 0;
     }
     .transform-landscape p{
         margin: 0px;
+        padding: 0px;
     }
     .header-transform{
         font-size: 3rem;
+        padding: 0;
+        margin-top: 2500px;
+        margin-bottom: 0px;
     }
     #header-offerings{
         font-size: 3rem;
@@ -592,6 +578,9 @@ footer p {
         margin-right: 0px;
         margin-left: 0px;
         padding-left: 0px;
+        padding: 0;
+        margin: 0;
+        margin-top: -300px;
     }
     #offerings-item {
         display: inline-block;
@@ -614,7 +603,9 @@ footer p {
     .our-services{
         margin-right: 0px;
         margin-left: 0px;
-        padding-left: 0px;
+        padding: 0;
+        margin-top: 1250px;
+        margin-bottom: 100px;
     }
     #services-item {
         display: inline-block;
@@ -630,21 +621,16 @@ footer p {
         font-size: 2.5rem;
       }
       .about-section{
-        margin: 0px;
-        padding-right: 0px;
-        padding-left: 0px;
-        padding-top: 300px;
-        padding-bottom: 350px;
+        margin: 0;
+        padding: 0;
         justify-content: center;
         text-align: center;
+        margin-top: -400px;
+        margin-bottom: -200px;
       }
       .about-section p{
-        margin: 0px;
-        padding: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-right: 0px;
-        margin-left: 0px;
+        margin: 0;
+        padding: 0;
         text-align: center;
       }
       #p-about{
@@ -654,27 +640,35 @@ footer p {
         margin-left: 0px;
         padding-right: 0px;
         padding-left: 0px;
-        font-size: 1rem;
+        font-size: 1.2rem;
         text-align: center;
       }
       html, body {
         max-width: 100%;
         overflow-x: hidden;
     }
-    .hidden{
-        margin: 0px;
-        padding: 0px;
-    }
     .div-content{
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
     .check-out-work {
         z-index: 1;
     }
     .header-transform{
         z-index: -1;
+    }
+    #offering-p{
+        font-size: 1.2rem;
+    }
+    #offering-h3{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .our-services{
+        margin-top: 1400px;
     }
 }
