@@ -564,7 +564,7 @@ footer p {
     .header-transform{
         font-size: 2.5rem;
         padding: 0;
-        margin-top: 2250px;
+        margin-top: -200px;
         margin-bottom: 0px;
     }
     #header-offerings{
@@ -580,7 +580,7 @@ footer p {
         padding-left: 0px;
         padding: 0;
         margin: 0;
-        margin-top: -600px;
+        margin-top: -1800px;
     }
     #header-offerings{
         font-size: 2.5rem;
@@ -667,9 +667,13 @@ footer p {
     #offering-h3{
         font-size: 1.5rem;
     }
+    .example img {
+        width: 175px;
+        height: 175px;
+    }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 400px){
     .our-services{
         margin-top: 1300px;
     }
@@ -678,9 +682,13 @@ footer p {
         margin-bottom: -250px;
     }
     .offerings-section{
-        margin-top: -500px;
+        margin-top: -1750px;
     }
     .transform-landscape{
-        margin-top: 100px;
+        margin-top: 0px;
+    }
+    .example img{
+        width: 125px;
+        height: 125px;
     }
 }

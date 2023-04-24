@@ -231,8 +231,8 @@ footer p {
 
 @media only screen and (max-width: 425px){
     .prev-item img{
-        width: 200px;
-        height: 200px;
+        width: 175px;
+        height: 175px;
     }
     .header-previous{
         font: "Open Sans", sans-serif;
@@ -240,5 +240,11 @@ footer p {
         font-weight: 700;
         line-height: 1.2;
         color: var(--h1-color);
+    }
+}
+@media only screen and (max-width: 400px){
+    .prev-item img{
+        width: 150px;
+        height: 150px;
     }
 }
