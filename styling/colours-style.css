@@ -290,12 +290,12 @@ footer p {
 
 @media only screen and (max-width: 425px){
     .colour-item img{
-        width: 200px;
-        height: 200px;
+        width: 175px;
+        height: 175px;
     }
     .colour-pallet-item img{
-        width: 12em;
-        height: 12em;
+        width: 11em;
+        height: 11em;
         object-fit: fill;
         box-sizing: border-box;
         outline: none;
@@ -316,5 +316,19 @@ footer p {
         font-weight: 700;
         line-height: 1.2;
         color: var(--h1-color);
+        margin: 0;
+        padding: 0;
     }
+    .colour-item h2{
+        font-size: 1.2rem;
+        text-align: left;
+        margin-right: 8px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .colour-item img{
+        width: 150px;
+        height: 150px;
+    }
+    
 }
