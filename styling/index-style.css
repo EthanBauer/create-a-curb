@@ -201,14 +201,26 @@ img:hover{
     font: "Brush";
     font-size: 3rem;
     font-weight: 700;
-    line-height: 1.2;
-    color: var(--p-color);
+    color: var(--alt-text-color);
+    background-color: var(--button-background-color);
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+#offering-h3:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 #offering-p{
     text-align: center;
     color: var(--h1-color);
     font: "Open Sans", sans-serif;
     font-size: 2.2rem;
+    padding: 10px;
 }
 
 
@@ -675,14 +687,14 @@ footer p {
 
 @media only screen and (max-width: 400px){
     .our-services{
-        margin-top: 1300px;
+        margin-top: 1400px;
     }
     .about-section{
         margin-top: -400px;
         margin-bottom: -250px;
     }
     .offerings-section{
-        margin-top: -1750px;
+        margin-top: -1650px;
     }
     .transform-landscape{
         margin-top: 0px;
