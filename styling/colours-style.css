@@ -299,6 +299,7 @@ footer p {
         object-fit: fill;
         box-sizing: border-box;
         outline: none;
+        text-align: center;
     }
     .header-colours{
         font: "Open Sans", sans-serif;
@@ -329,6 +330,10 @@ footer p {
     .colour-item img{
         width: 150px;
         height: 150px;
+    }
+    .colour-pallet-item img{
+        width: 320px;
+        height: 320px;
     }
     
 }
