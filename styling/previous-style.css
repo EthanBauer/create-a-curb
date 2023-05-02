@@ -76,6 +76,15 @@ body::-webkit-scrollbar-thumb{
 .prev-item {
     position: relative;
 }
+.prev-item h2{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    color: var(--alt-text-color);
+}
 
 
 
@@ -240,6 +249,11 @@ footer p {
         font-weight: 700;
         line-height: 1.2;
         color: var(--h1-color);
+    }
+    .prev-item h2{
+        font-size: 0.7rem;
+        text-align: left;
+        margin-right: 8px;
     }
 }
 @media only screen and (max-width: 400px){
