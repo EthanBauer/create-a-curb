@@ -1,5 +1,5 @@
 # Create-A-Curb
-Decorative curbing business with operation in Windsor-Essex, Ontario, Canada
+Decorative curbing business with operations in Windsor-Essex, Ontario, Canada
 
 ---
 
