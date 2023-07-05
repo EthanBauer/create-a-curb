@@ -110,17 +110,6 @@ a{
 a:active{
     color: black;
 }
-.davis-title{
-    text-align: center;
-    font-size: 50px;
-    font-weight: 500;
-    font: "Brush";
-    font-size: 5rem;
-    font-weight: 700;
-    line-height: 1.2;
-    color: var(--h1-color);
-    padding-top: 125px; 
-}
 .colour-pallet{
     display: flex;
     flex-wrap: wrap;
@@ -211,6 +200,10 @@ a{
 }
 .nav-link:hover{
     color: var(--button-hover-color);
+}
+
+.div-content{
+    margin-bottom: 100px;
 }
 
 footer {
